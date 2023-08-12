@@ -1,4 +1,4 @@
-package CP;
+
 import java.util.*;
 public class codeChef{
     public static void main(String[] args) {
@@ -24,15 +24,34 @@ public class codeChef{
             // }
             // System.out.println(val);
             //lucky four
-            int n=sc.nextInt();
-            int b=0;
-            String a = Integer.toString(n);
-            for(int i=0; i<a.length();i++){
-                if(a.charAt(i)=='4'){
-                    b++;
-                }
-            }System.out.println(b);
+            // int n=sc.nextInt();
+            // int b=0;
+            // String a = Integer.toString(n);
+            // for(int i=0; i<a.length();i++){
+            //     if(a.charAt(i)=='4'){
+            //         b++;
+            //     }
+            // }System.out.println(b);
+            //Kitchen Timetable
+            // int n=sc.nextInt(), c=0; //number of students and const
+            // int t1[]=new int[n];
+            // int t2[]=new int[n];
+            // for(int i=0;i<n;i++){
+            //     t1[i]=sc.nextInt();
+            // }
+            // for(int i=0;i<n;i++){
+            //     t2[i]=sc.nextInt();
+            // }
+            // for(int i=0;i<n;i++){
+            //     if(i==0 ){
+            //         if((t2[i]) <= (t1[i]))
+            //         c++;
+            //     }else if(t2[i]<=(t1[i]-t1[i-1])){
+            //         c++;
+            //     }
+            // }System.out.println(c);
+            //Easy Pronunciation
+            }
             t--;
-        }
     }
 }
