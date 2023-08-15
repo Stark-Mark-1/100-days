@@ -139,26 +139,87 @@ public class codeChef{
             // max=Math.max(max, (c1+c2));
             // System.out.println(max);
             // Coding Ninjas: Data Types:
-            String str=sc.nextLine();
-            switch(str) {
-                case "Integer":
-                System.out.println("4");
-                break;
-                case "Long":
-                System.out.println("8");
-                break;
-                case "Float":
-                System.out.println("4");
-                break;
-                case "Double":
-                System.out.println("8");
-                break;
-                case "Character":
-                System.out.println("1");
-                break;
-                default: 
-                System.out.println("no match");
-            }
+            // String str=sc.nextLine();
+            // switch(str) {
+            //     case "Integer":
+            //     System.out.println("4");
+            //     break;
+            //     case "Long":
+            //     System.out.println("8");
+            //     break;
+            //     case "Float":
+            //     System.out.println("4");
+            //     break;
+            //     case "Double":
+            //     System.out.println("8");
+            //     break;
+            //     case "Character":
+            //     System.out.println("1");
+            //     break;
+            //     default: 
+            //     System.out.println("no match");
+            // }
+            //Coding Ninja 21 day challenge
+            // int a=sc.nextInt(), b=sc.nextInt();
+            // String s="";
+            // if(a<b){
+            // s="smaller";
+            //   }else if(a>b){
+            // s="greater";
+            // }else if(a==b){
+            // s="equal";
+            // }
+            // System.out.println(s);
+            //code Chef Play Piano
+            // String s=  sc.nextLine();
+		    // int a=0,b=0;
+		    // char arr[]=s.toCharArray();
+		    // for(int i =0;i<arr.length; i++){
+		    //     if(arr[i]=='A'){
+		    //         a++;
+		    //     }else if(arr[i]=='B'){
+		    //         b++;
+		    //     }
+		    // }
+		    // if(a%2==0 && b%2==0){
+		    //     System.out.println("Yes");
+		    // }else{
+		    //     System.out.println("No");
+		    // }
+            //chef and lock out draws
+            // int a=sc.nextInt() , b=sc.nextInt(), c=sc.nextInt();
+            // int sum=a+b+c;
+            // if(sum%2==0){
+            //     System.out.println("YES");
+            // }else{
+            //     System.out.println("NO");
+            // }
+            // Code Ninjas
+            // int n=sc.nextInt();
+            // String s=Integer.toString(n);
+            // int esum=0, osum=0;
+            // for(int i=0;i<s.length();i++){
+            //     if(s.charAt(i)%2==0){
+            //         osum+=s.charAt(i);
+            //     }else{
+            //         esum=s.charAt(i);
+            //     }
+            // }
+            // System.out.println(osum + " " + esum);
+            // int n=sc.nextInt();
+            // int evenSum=0, oddSum=0;
+            // while (n > 0) {
+            //     int digit = n % 10;
+    
+            //     if (digit % 2 == 0) {
+            //         evenSum += digit;
+            //     } else {
+            //         oddSum += digit;
+            //     }
+    
+            //     n /= 10;
+            // }
+            // System.out.println(evenSum + " " + oddSum);
             t--;
         }
     }
