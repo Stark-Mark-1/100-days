@@ -223,4 +223,19 @@ public class codeChef{
             t--;
         }
     }
+    //code ninja
+    // public static int[] printNos(int x) {
+    //     int arr[]=new int[x];
+    //     generateArray(arr, x, 0);
+    //     return arr;
+    // }
+
+    // private static void generateArray(int[] arr, int x, int index) {
+    //     if (index >= x) {
+    //         return;
+    //     }
+        
+    //     arr[index] = index + 1;
+    //     generateArray(arr, x, index + 1);
+    // }
 }
