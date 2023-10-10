@@ -220,6 +220,44 @@ public class codeChef{
             //     n /= 10;
             // }
             // System.out.println(evenSum + " " + oddSum);
+            // int n= sc.nextInt(), s= sc.nextInt();
+            // int r=sc.nextInt();
+            // if(s>n){
+            //     n=+r;
+            // }else{
+            //     s=+r;
+            // }
+            // int sat=sc.nextInt();
+            // if(s>n){
+            //     n=+sat;
+            // }else{
+            //     s=+sat;
+            // }
+            // if(s>n){
+            //     System.out.println("S");
+            // }else{
+            //     System.out.println("N");
+            // }
+            //FRGAME CODECHEF:
+            // int arr[]=new int[4];
+            // for(int i=0; i<4;i++){
+            //     arr[i]=sc.nextInt();
+            // }
+            // if(arr[1]>arr[0]){
+            //     arr[0]+=arr[2];
+            // }else{
+            //     arr[1]+=arr[2];
+            // }
+            // if(arr[1]>arr[0]){
+            //     arr[0]+=arr[3];
+            // }else{
+            //     arr[1]+=arr[3];
+            // }
+            // if(arr[1]>arr[0]){
+            //     System.out.println("S");
+            // }else{
+            //     System.out.println("N");
+            // }
             t--;
         }
     }
