@@ -14,7 +14,8 @@ public class codeChef{
             //     if(arr[i]>999){
             //         c++;
             //     }
-            // }
+            // }xit
+            
             // System.out.println(c);
             // Small Factorials Code Chef
             // int n=sc.nextInt();
@@ -258,6 +259,12 @@ public class codeChef{
             // }else{
             //     System.out.println("N");
             // }
+            int x=sc.nextInt(), y=sc.nextInt();
+            if(x+y>6){
+                System.out.println("YES");
+            } else if(x+y<6){
+                System.out.println("NO");
+            }
             t--;
         }
     }
